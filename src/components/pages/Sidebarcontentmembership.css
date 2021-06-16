@@ -1,0 +1,27 @@
+.Sidebarcontentmembership {
+  flex: 0.2;
+  text-align: left;
+  height: fit-content;
+  padding-left: 100px;
+}
+
+.subpagesections__sidebarcontentmembership {
+  color: #005daa;
+  padding: 10px;
+  border-bottom: none;
+}
+
+.subpagesections__sidebarcontentmembership > img {
+  height: 200px;
+  width: 300px;
+  padding: 5px;
+  border-radius: 10px;
+  border: solid 1px green;
+  color: #005daa;
+  float: left;
+  margin: 2px 12px 2px 12px;
+}
+
+.subpagesections__sidebarcontentmembership > h2 {
+  font-size: 35x;
+}

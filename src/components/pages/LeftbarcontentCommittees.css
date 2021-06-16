@@ -1,0 +1,19 @@
+.leftbarcontent {
+  flex: 0.45;
+  padding: 2px;
+  margin: 10px 20px 10px 10px;
+  height: fit-content;
+  color: #005daa;
+}
+
+.leftbarcontent__committes {
+  padding: 10px;
+  margin-left: 0;
+}
+
+.leftbarcontent__committes > h1 {
+  text-align: left;
+  padding: 2px;
+
+  font-size: 20px;
+}

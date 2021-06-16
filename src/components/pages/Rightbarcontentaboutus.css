@@ -1,0 +1,29 @@
+.rightbarcontentaboutus {
+  flex: 0.2;
+  text-align: left;
+  height: fit-content;
+  padding-left: 10px;
+}
+
+.subpagesections__rightbarcontentaboutus {
+  color: #005daa;
+  padding: 10px;
+  border-bottom: none;
+}
+
+.subpagesections__rightbarcontentaboutus > img {
+  height: 200px;
+  width: 150px;
+  padding: 5px;
+  border-radius: 10px;
+  color: #005daa;
+  float: left;
+  margin: 2px 12px 2px 12px;
+}
+
+.subpagesections__rightbarcontentaboutus > h2 {
+  font-size: 35x;
+}
+
+@media screen and (max-width: 640px) {
+}

@@ -1,0 +1,68 @@
+.Centercontent__contactus {
+  background-color: wheat;
+  box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.75);
+  padding: 30px;
+  height: 110vh;
+  margin: 10px;
+  flex: 0.8;
+}
+
+.form__contactus {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid green;
+  padding: 10px;
+  margin: 2px;
+}
+
+.form__contactus > h1 {
+  margin-bottom: 3px;
+}
+
+.form__contactus > input,
+textarea {
+  padding: 20px;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  border: 1px solid lightgray;
+  background: wheat;
+  font-size: 16px;
+  color: rgb(0, 0, 32);
+  outline: none;
+}
+
+.form__contactus > input:focus,
+textarea:focus {
+  border: 1px solid rgb(0, 0, 196);
+}
+
+.form__contactus > textarea {
+  height: 150px;
+  max-width: 400px;
+  min-height: 100px;
+}
+
+.form__contactus > label {
+  padding-bottom: 10px;
+  color: rgb(0, 0, 32);
+  font-weight: bold;
+}
+
+.form__contactus > button {
+  padding: 20px;
+  border: none;
+  background-color: rgb(2, 2, 110);
+  font-weight: 500;
+  font-size: 20px;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  margin-top: 10px;
+}
+
+.form__contactus > button:hover {
+  background-color: #0000c4;
+}

@@ -1,0 +1,152 @@
+.footer__container {
+  background-color: #005daa;
+  padding: 0 0 10.1rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.footer__links {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+}
+
+.footerlink__wrapper {
+  display: flex;
+}
+
+.footerlink__items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 16px;
+  text-align: left;
+  width: 225px;
+  box-sizing: border-box;
+}
+
+.footerlink__items > h2 {
+  color: sandybrown;
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+
+.footerlink__items a {
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+
+.footerlink__items a:hover {
+  color: sandybrown;
+  transition: 0.3s ease-out;
+}
+
+/* Social Icons */
+.socialicon__link {
+  color: #fff;
+  font-size: 20px;
+}
+.socialicon__link :hover {
+  color: sandybrown;
+}
+
+.social__media {
+  max-width: 1000px;
+  width: 100%;
+}
+
+.socialmedia__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 800px;
+  margin: 40px auto 0 auto;
+}
+
+.social__icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 240px;
+}
+
+.social__logo {
+  color: #fff;
+  justify-self: start;
+  margin-left: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.social__logo:hover {
+  color: sandybrown;
+}
+.website__rights {
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.facebook > a {
+  color: white !important;
+  padding-right: 10px;
+}
+.youtube > a {
+  color: red !important;
+  padding-right: 10px;
+}
+.instagram > a {
+  color: violet !important;
+  padding-right: 10px;
+}
+.email > a {
+  color: orangered !important;
+  padding-right: 10px;
+}
+.twitter > a {
+  color: skyblue !important;
+}
+
+@media screen and (max-width: 820px) {
+  .footer__container {
+    background-color: #005daa;
+    padding: 20px;
+  }
+  .footerlink__items > h2 {
+    font-size: 10px;
+  }
+
+  .footer__input {
+    width: 100%;
+  }
+
+  .footerlink__wrapper {
+    flex-direction: column;
+  }
+
+  .footerlink__items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px;
+    text-align: left;
+    width: 150px;
+    box-sizing: border-box;
+  }
+
+  .socialmedia__wrap {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+}

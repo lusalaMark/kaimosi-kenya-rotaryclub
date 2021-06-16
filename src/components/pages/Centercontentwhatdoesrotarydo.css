@@ -1,0 +1,21 @@
+.content__cen {
+  color: #005daa;
+  margin-left: 2px;
+  padding: 20px;
+}
+
+.socialmedia__icons {
+  background-color: grey;
+  color: #005daa;
+  border: none;
+}
+
+.socialmedia__icons > h1 {
+  padding-top: 30px;
+  padding-left: 30px;
+  font-size: 20px;
+  text-align: left;
+}
+
+@media screen and (max-width: 640px) {
+}

@@ -1,0 +1,26 @@
+.rightbarbcontent {
+  flex: 0.1;
+  text-align: left;
+  height: fit-content;
+  padding-right: 100px;
+}
+
+.rightbarcontent__wearerotary {
+  color: #005daa;
+  padding: 10px;
+  border-bottom: none;
+}
+
+.rightbarcontent__wearerotary > img {
+  height: 200px;
+  width: 150px;
+  padding: 5px;
+  border-radius: 10px;
+  color: #005daa;
+  float: left;
+  margin: 2px 12px 2px 12px;
+}
+
+.rightbarcontent__wearerotary > h2 {
+  font-size: 35x;
+}
